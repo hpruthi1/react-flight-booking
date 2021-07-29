@@ -1,0 +1,9 @@
+{
+  "availableFlights": [
+    {
+      "_id": "1",
+      "time": "7am",
+      "price": "5000"
+    }
+  ]
+}
