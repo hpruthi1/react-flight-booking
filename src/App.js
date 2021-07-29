@@ -17,7 +17,7 @@ class App extends React.Component {
   }
 
   handleSubmit(event) {
-    alert("Your favorite State is: " + this.state.value);
+    alert("Your Selected State is: " + this.state.value);
     event.preventDefault();
   }
 
@@ -32,7 +32,6 @@ class App extends React.Component {
         <main>
           Book Flights, Hotels and Holiday Packages
           <h2>Select Cities</h2>
-          <img src="./1.jpg" alt="a"></img>
           <form onSubmit={this.handleSubmit}>
             <label>
               State 1:{" "}
